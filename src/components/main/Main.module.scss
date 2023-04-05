@@ -1,0 +1,71 @@
+.main {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 20%;
+    justify-self: flex-end;
+  
+    .rect {
+      position: absolute;
+      margin-right: 20.5%;
+      height:570px;
+    }
+    .recta {
+      height: 570px;
+      
+    }
+    .rectan {
+      height: 570px;
+      position: absolute;
+    }
+    .Main{
+      height: 570px;
+    }
+    .hr {
+      position: absolute;
+      width: 1440px;
+      height: 18px;
+      left: 0px;
+      top:675px;
+      background: #107d5c;
+    }
+    .h2 {
+      font-family: "Rubik";
+      position: absolute;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 39.5px;
+      line-height: 47px;
+      top: 180px;
+      left: 5%;
+      width: 40%;
+      color: #3A0CA3;
+    }
+    .h5 {
+      font-family: "inter";
+      position: absolute;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      top: 325px;
+      left: 5%;
+      width: 30%;
+      color: #3A0CA3;
+    }
+    .btn {
+      font-family: "Rubik";
+      position: absolute;
+      width: 257px;
+      height: 50px;
+      left: 5%;
+      top: 425px;
+      color: #3A0CA3;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 2px 2px rgb(179, 173, 173);
+    }
+  }
+  

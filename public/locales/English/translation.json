@@ -1,0 +1,37 @@
+{
+    "russ":"Russian",
+    "eng":"English",
+    "login": "Login",
+    "reg":"Register",
+  
+    "main":"Learn English easily with the best methods",
+    "main_second":"We combine the best methods for teaching English",
+    "enter":"Start learning",
+  
+    "benefits":"Why choose us?",
+    "first_text":"Effective learning",
+    "first_card":"Grammar, reading, listening, pronunciation tasks will help you improve your language skills.",
+    "second_text":"Individuality",
+    "second_card":"Learn what you need, write words, and we will select tasks for them for the bestmemorization.",
+    "third_text":"Audio stories",
+    "third_card":"Listen, read, translate - one of the best methods of learning English.",
+    "fourth_text":"Possibilities",
+    "fourth_card":"Track progress and maintain daily activities, get rewards and medals.",
+    
+    "footer":"Learn anywhere",
+    "footer_text":"Leave notes and papers at home and study anywhere, even offline, with our iOS and Android apps. Progress is synced and stored on your phone, computer.",
+    "footer_btn":"Register for free",
+    "footer_p": "Learn English with Language Learning!",
+  
+    "aside":"Home",
+    "store": "Store",
+    "abc": "Dictionaries",
+    "profile": "Profile",
+  
+    "comment": "What students say about us?",
+  
+    "akkaunt": "Create your account!",
+    "btnLog": "Register",
+    "pass1": "repeat password"
+  
+  }
