@@ -1,0 +1,29 @@
+.form {
+    position: absolute;
+    display: block;
+    text-align: start;
+    top: 170px;
+    width: 30%;
+    height: 60%;
+    margin-left: 7%;
+    background: #f5f8f7;
+    border-radius: 10px;
+    .h4 {
+      color: #107d5c;
+      text-align: center;
+    }
+    div {
+      margin: 10px;
+    }
+    .button {
+      width: 40%;
+      height: 35px;
+      background: #2579F7;
+      border: none;
+      border-radius: 5px;
+      color: #e3e7e6;
+      margin: 5px 10px;
+      cursor: pointer;
+    }
+  }
+  

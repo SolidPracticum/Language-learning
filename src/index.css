@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@700&family=Rubik:wght@700&display=swap');
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family:'Open Sans';
+}
+.error-message{
+  color: red;
+  font-size: 10px;
+}
