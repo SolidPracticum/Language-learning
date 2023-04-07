@@ -5,6 +5,7 @@ import Input from "../../components/input/Input";
 import { useNavigate } from "react-router-dom";
 import { addLogin } from "../../store/loginSlice";
 import {  useTranslation } from "react-i18next";
+import "../../i18n.d.ts"
 import { useAppDispatch, useAppSelector } from "../../store";
 import Main from "../../components/main/Main";
 import  Header  from "../../components/header/Header";
@@ -15,7 +16,7 @@ function LoginPage() {
   const [password, setPassword] = useState<string>("");
   const [password1, setPassword1] = useState<string>("");
   const [error, setError] = useState<string>("");
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
  const dataLog:any = {
     id: Date.now(),
