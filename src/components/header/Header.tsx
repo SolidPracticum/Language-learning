@@ -6,7 +6,8 @@ import { useTranslation } from "react-i18next";
 // eslint-disable-next-line react/prop-types
 function Header({ isHeader, color }: { isHeader: boolean, color: string }) {
   const { t, i18n } = useTranslation();
-  const [active, setActive] = useState(false);
+  const [active, setActive
+  ] = useState(false);
   const [language, setLanguage] = useState(i18n.language);
   const changeLanguage = (lang: any) => {
     i18n.changeLanguage(lang);
