@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useTranslation } from "react-i18next";
 import scss from "./Main.module.scss";
+import { Link } from "react-router-dom";
 
 function Main({ isMain, top }: { isMain: any; top: any }) {
   const { t } = useTranslation();
@@ -18,7 +19,10 @@ function Main({ isMain, top }: { isMain: any; top: any }) {
           {" "}
           <h2 className={scss.h2}>{t("main")}</h2>
           <h5 className={scss.h5}>{t("main_second")}</h5>
-          <button className={scss.btn}>{t("enter")}</button>
+          <Link to="/dashboard" >
+           <button className={scss.btn}>{t("enter")}</button>
+          </Link>
+         
         </>
       )}
       <img
